@@ -38,8 +38,6 @@ a{
 	text-decoration: none;
 	cursor: pointer;
 	
-	font-size: 12px;
-
 	-webkit-transition: color 0.1s linear 0s;	
 	   -moz-transition: color 0.1s linear 0s;
 		 -o-transition: color 0.1s linear 0s;
@@ -778,7 +776,6 @@ nav#menu #menu-nav li a:hover {
    About Section
 ================================================== */
 
-
 .profile-name {
 	margin-bottom: 15px;	
 }
@@ -916,10 +913,6 @@ nav#menu #menu-nav li a:hover {
 	margin: 0 0 20px;
 	line-height: 28px;
 	padding: 0;	
-}
-
-.contact-details a {
-	font-size: 14px;
 }
 
 #contact-form {

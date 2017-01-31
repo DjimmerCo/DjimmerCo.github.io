@@ -77,7 +77,7 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/Cathodique_slide.png', title : '<div class="slide-content">Cathodique 2.0</div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''}  
@@ -223,10 +223,10 @@ BRUSHED.tweetFeed = function(){
 	
     $("#ticker").tweet({
           modpath: '_include/js/twitter/',
-          username: "819260579214983170", // Change this with YOUR ID
+          username: "Bluxart", // Change this with YOUR ID
           page: 1,
           avatar_size: 0,
-          count: 5,
+          count: 10,
 		  template: "{text}{time}",
 		  filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },
           loading_text: "loading ..."
@@ -406,6 +406,16 @@ $(document).ready(function(){
 	{
 		test: Modernizr.placeholder,
 		nope: '_include/js/placeholder.js', 
+		complete : function() {
+				if (!Modernizr.placeholder) {
+						Placeholders.init({
+						live: true,
+						hideOnFocus: false,
+						className: "yourClass",
+						textColor: "#999"
+						});    
+				}
+		}
 	}
 	]);
 	

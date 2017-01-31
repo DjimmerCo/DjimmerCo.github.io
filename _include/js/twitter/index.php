@@ -24,16 +24,16 @@ class ezTweet {
 	/*************************************** config ***************************************/
 
    // Your Twitter App Consumer Key
-	private $consumer_key = 'tezW5f3vn1AieMHUG1rGp3cSy';
+	private $consumer_key = 'YOUR_CONSUMER_KEY';
 
 	// Your Twitter App Consumer Secret
-	private $consumer_secret = 'yrCxMteVsDmUb89yKxt2Mvgo9u34M2UQeEB9f4RFllgw9qk4zL';
+	private $consumer_secret = 'YOUR_CONSUMER_SECRET';
 
 	// Your Twitter App Access Token
-	private $user_token = '819260579214983170-PaodaqJtyo49lky6Y9CEh51ean4b0U3';
+	private $user_token = 'YOUR_ACCESS_TOKEN';
 
 	// Your Twitter App Access Token Secret
-	private $user_secret = 'E1TRSvRv7Io8oJi0PKlz8VP95O0YpeT1m14RqFMnIDF66';
+	private $user_secret = 'YOUR_ACCESS_TOKEN_SECRET';
 
 	// Path to tmhOAuth libraries
 	private $lib = './lib/';
