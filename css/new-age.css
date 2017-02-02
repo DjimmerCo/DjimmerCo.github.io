@@ -476,6 +476,7 @@ body {
 
 section.vision {
   height: auto;
+  color: white;
 }
 
 section.vision p {
@@ -490,7 +491,28 @@ section.vision p {
   overflow-y: hidden;
   background: url("../img/bg-pattern.png"), #23bbb2;
   /* fallback for old browsers */
-  color: white;
+}
+
+.patern-w {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  overflow-y: hidden;
+  background: url("../img/bg-pattern.png"), #ffffff;
+  /* fallback for old browsers */
+}
+
+.patern-bg-primary {
+  background: #23bbb2;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(#23bbb2, #ffffff);
+  background: url("../img/bg-pattern.png"), linear-gradient(#23bbb2, #ffffff);
+
+}
+
+.patern-bg-primary-down {
+  background: #23bbb2;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(#ffffff, #23bbb2);
+  background: url("../img/bg-pattern.png"), linear-gradient(#ffffff, #23bbb2);
 }
 
 section.contrats h2 {
